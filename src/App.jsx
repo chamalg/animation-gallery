@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import PowerButton from './PowerButton';
 import FullscreenOverlay from './FullScreenOverlay';
 import FlipCard from './FlipCard';
