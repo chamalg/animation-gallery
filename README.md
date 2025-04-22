@@ -5,7 +5,7 @@ A curated collection of interactive and beautiful animations built with [Framer 
 
 ## 📸 Preview
 
-Check out the live demo: [https://app.netlify.com/sites/fluffy-dragon-15bd4f/overview](https://app.netlify.com/sites/fluffy-dragon-15bd4f/overview)
+Check out the live demo: [https://fluffy-dragon-15bd4f.netlify.app/](https://fluffy-dragon-15bd4f.netlify.app)
 
 ---
 
