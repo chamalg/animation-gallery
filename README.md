@@ -5,7 +5,7 @@ A curated collection of interactive and beautiful animations built with [Framer 
 
 ## 📸 Preview
 
-Check out the live demo: [https://your-project.netlify.app](https://your-project.netlify.app)
+Check out the live demo: [https://app.netlify.com/sites/fluffy-dragon-15bd4f/overview](https://app.netlify.com/sites/fluffy-dragon-15bd4f/overview)
 
 ---
 
@@ -23,7 +23,7 @@ Check out the live demo: [https://your-project.netlify.app](https://your-project
 Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/animation-gallery.git
+git clone https://github.com/chamalg/animation-gallery.git
 cd animation-gallery
 npm install
 npm run dev
