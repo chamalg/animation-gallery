@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import './FullscreenOverlay.css';
+import './FullScreenOverlay.css';
 
 const teamMembers = [
   { name: 'Ryan Franci', role: 'Business Analyst', image: 'https://randomuser.me/api/portraits/men/32.jpg', top: '15%', left: '25%' },
@@ -32,7 +32,8 @@ const getDirectionalOffset = (top, left) => {
   return { x: offset, y: offset };
 };
 
-const FullscreenOverlay = () => {
+const FullScreenOverlay = () => {
+
   const teamChunks = chunkArray(teamMembers, 4);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
@@ -102,4 +103,4 @@ const FullscreenOverlay = () => {
   );
 };
 
-export default FullscreenOverlay;
+export default FullScreenOverlay;
