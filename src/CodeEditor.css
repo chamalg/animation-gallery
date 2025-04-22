@@ -1,0 +1,91 @@
+.code-editor-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+    padding: 40px 60px;
+    border-radius: 1rem;
+}
+
+.header-inside {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.code-editor-container {
+    background: linear-gradient(
+      135deg,
+      rgba(255, 0, 150, 0.2),
+      rgba(0, 255, 255, 0.2),
+      rgba(0, 255, 0, 0.2)
+    );
+    backdrop-filter: blur(8px);
+    border-radius: 15px;
+    padding: 40px 20px 20px;
+    color: rgb(234, 234, 234);
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 250px;
+    overflow-y: auto;
+    position: relative;
+  }
+  
+
+.code-editor-container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.6));
+    pointer-events: none;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.code {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+.line-number {
+    display: inline-block;
+    width: 2em;
+    margin-right: 8px;
+    color: #888;
+    user-select: none;
+}
+
+.cursor {
+    display: inline-block;
+    width: 1px;
+    background-color: #fff;
+    animation: blink 1s steps(2, start) infinite;
+    margin-left: 2px;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+.text-content {
+    font-size: 18px;
+}
+
+.text-heading {
+    font-weight: bold;
+  font-size: 3rem;
+}

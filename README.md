@@ -1,12 +1,29 @@
-# React + Vite
+# 🎞️ Animation Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A curated collection of interactive and beautiful animations built with [Framer Motion](https://www.framer.com/motion/) and React.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## Expanding the ESLint configuration
+Check out the live demo: [https://your-project.netlify.app](https://your-project.netlify.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📦 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Vite](https://vitejs.dev/) or Create React App (based on setup)
+- [Styled Components](https://styled-components.com/) or CSS Modules (optional)
+
+---
+
+## 🛠️ Getting Started
+
+Clone the repo:
+
+```bash
+git clone https://github.com/your-username/animation-gallery.git
+cd animation-gallery
+npm install
+npm run dev
